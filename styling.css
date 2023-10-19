@@ -1,0 +1,165 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.sale {
+  color: #fff;
+  font-weight: bold;
+  background-color: red;
+  letter-spacing: 3px;
+  padding: 5px;
+  position: absolute;
+  top: -15px;
+  left: -35px;
+}
+
+.article {
+  border: 5px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: 250px 1fr 1fr;
+
+  column-gap: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 15px;
+  grid-column: 1 / -1;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.shipping {
+  color: #777;
+}
+
+.price-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.product-colors {
+  display: flex;
+
+  gap: 10px;
+}
+
+.div-1 {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.div-2 {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.div-3 {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: red;
+}
+
+.div-4 {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.div-5 {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: green;
+}
+
+.div-6 {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: brown;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style: square;
+}
+
+button {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  border-top: 5px solid black;
+
+  grid-column: 1 / -1;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+}
